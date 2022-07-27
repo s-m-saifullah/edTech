@@ -1,3 +1,63 @@
+:root {
+  --primary-color: #461169;
+}
+
 body {
   font-family: "Poppins", sans-serif;
+}
+
+.bg-codebd {
+  background-color: var(--primary-color);
+}
+
+.text-codebd {
+  color: var(--primary-color);
+}
+
+.outline-codebd {
+  border: 0.5px solid var(--primary-color);
+}
+
+.button-codebd {
+  transition: all 0.5s;
+}
+
+.button-codebd:hover {
+  color: white;
+  background-color: var(--primary-color);
+}
+
+.carousel-codebd {
+  min-height: 700px;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: relative;
+  z-index: 1;
+}
+
+.carousel-codebd::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(29, 29, 29, 0.6);
+  z-index: -1;
+}
+
+.carousel-codebd .carousel-caption {
+  transform: translateY(50%);
+}
+
+@media screen and (max-width: 576px) {
+  .carousel-height {
+    min-height: 262px;
+  }
+}
+
+@media screen and (max-width: 992px) {
+  .carousel-height {
+    min-height: 400px;
+  }
 }
