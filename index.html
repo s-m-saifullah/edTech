@@ -23,25 +23,21 @@
     <header class="mb-5">
       <!-- Navbar Starts -->
       <nav class="navbar navbar-expand-lg py-4">
-        <div class="container justify-content-between">
-          <div class="logo">
-            <a class="navbar-brand fw-semibold text-dark fs-1" href="#"
-              >CodeBD</a
-            >
-            <button
-              class="navbar-toggler"
-              type="button"
-              data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent"
-              aria-controls="navbarSupportedContent"
-              aria-expanded="false"
-              aria-label="Toggle navigation"
-            >
-              <span class="navbar-toggler-icon"></span>
-            </button>
-          </div>
+        <div class="container">
+          <a class="navbar-brand fw-semibold text-dark fs-1" href="#">CodeBD</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
           <div
-            class="collapse navbar-collapse flex-grow-0"
+            class="collapse navbar-collapse flex-lg-grow-0"
             id="navbarSupportedContent"
           >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -63,13 +59,14 @@
             </ul>
           </div>
           <button
-            class="button-codebd text-codebd outline-codebd px-3 py-1 rounded-2"
+            class="button-codebd text-codebd outline-codebd px-3 py-1 rounded-2 d-none d-lg-block"
             type="submit"
           >
             Register
           </button>
         </div>
       </nav>
+
       <!-- Navbar Ends -->
       <!-- Carousel Starts -->
       <section>
@@ -80,11 +77,14 @@
             data-bs-ride="false"
           >
             <div class="carousel-inner rounded-1">
+              <!-- Slide 1 -->
               <div
                 class="carousel-item carousel-codebd active"
                 style="background-image: url(images/cover/cover-1.png)"
               >
-                <div class="carousel-caption bottom-50 d-none d-md-block">
+                <div
+                  class="carousel-caption bottom-50 w-75 mx-auto start-0 end-0"
+                >
                   <h1>Let's Start Your Digital Journey Today</h1>
                   <p>
                     It is a long established fact that a reader will be
@@ -96,35 +96,45 @@
                   </button>
                 </div>
               </div>
+
+              <!-- Slide 2 -->
               <div
                 class="carousel-item carousel-codebd"
                 style="background-image: url(images/cover/cover-2.png)"
               >
-                <div class="carousel-caption bottom-50 d-none d-md-block">
+                <div class="carousel-caption bottom-50 w-75 px-5 bottom-50">
                   <h1>Let's Start Your Digital Journey Today</h1>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout.
                   </p>
+                  <button class="btn text-white bg-codebd px-4 py-2">
+                    Start Now
+                  </button>
                 </div>
               </div>
+
+              <!-- Slide 3 -->
               <div
                 class="carousel-item carousel-codebd"
                 style="background-image: url(images/cover/cover-3.png)"
               >
-                <div class="carousel-caption bottom-50 d-none d-md-block">
+                <div class="carousel-caption bottom-50 w-75 px-5 bottom-50">
                   <h1>Let's Start Your Digital Journey Today</h1>
                   <p>
                     It is a long established fact that a reader will be
                     distracted by the readable content of a page when looking at
                     its layout.
                   </p>
+                  <button class="btn text-white bg-codebd px-4 py-2">
+                    Start Now
+                  </button>
                 </div>
               </div>
             </div>
             <button
-              class="carousel-control-prev"
+              class="carousel-control-prev d-none d-sm-inline-block"
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide="prev"
@@ -136,7 +146,7 @@
               <span class="visually-hidden">Previous</span>
             </button>
             <button
-              class="carousel-control-next"
+              class="carousel-control-next d-none d-sm-inline-block"
               type="button"
               data-bs-target="#carouselExampleCaptions"
               data-bs-slide="next"
