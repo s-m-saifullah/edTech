@@ -59,10 +59,10 @@
             </ul>
           </div>
           <button
-            class="button-codebd text-codebd outline-codebd px-3 py-1 rounded-2 d-none d-lg-block"
+            class="btn btn-codebd text-codebd outline-codebd px-3 py-1 rounded-2 d-none d-lg-block"
             type="submit"
           >
-            Register
+            Sign Up
           </button>
         </div>
       </nav>
@@ -168,7 +168,7 @@
       <!-- Our Courses Starts -->
       <section class="our-courses pt-5">
         <div class="container">
-          <h2 class="w-50 mx-auto text-center fs-1 fw-semibold">
+          <h2 class="w-75 mx-auto text-center fs-1 fw-semibold">
             Explore Our Trending Courses
           </h2>
           <p class="text-secondary w-50 mx-auto text-center my-3">
@@ -356,9 +356,367 @@
               </div>
             </div>
           </div>
+          <div class="text-center">
+            <a
+              href="#"
+              class="btn text-white btn-lite-codebd bg-codebd outline-codebd fw-semibold px-4 py-2 mt-5"
+              >View All Courses</a
+            >
+          </div>
         </div>
       </section>
       <!-- Our Courses Ends -->
+
+      <!-- Call to Action Starts -->
+      <section class="cta my-5">
+        <div class="container bg-codebd rounded-2 p-5">
+          <div class="row row-cols-1 row-cols-lg-2">
+            <div
+              class="col text-white text-center text-lg-start d-flex flex-column justify-content-center justify-content-lg-start"
+            >
+              <h2>Ready to Join?</h2>
+              <p>
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+              </p>
+            </div>
+            <div
+              class="col d-flex justify-content-center justify-content-lg-end align-items-center"
+            >
+              <!-- Button trigger modal -->
+              <button
+                type="button"
+                class="btn border-white fw-semibold fs-5 text-codebd bg-white rounded-1 px-4 px-lg-5 py-2 py-lg-3"
+                data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop"
+              >
+                Sign Up
+              </button>
+
+              <!-- Modal -->
+              <div
+                class="modal fade"
+                id="staticBackdrop"
+                data-bs-backdrop="static"
+                data-bs-keyboard="false"
+                tabindex="-1"
+                aria-labelledby="staticBackdropLabel"
+                aria-hidden="true"
+              >
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title" id="staticBackdropLabel">
+                        Registration
+                      </h5>
+                      <button
+                        type="button"
+                        class="btn-close"
+                        data-bs-dismiss="modal"
+                        aria-label="Close"
+                      ></button>
+                    </div>
+                    <div class="modal-body">
+                      <form class="row g-3">
+                        <div class="col-md-6">
+                          <label for="inputEmail4" class="form-label"
+                            >Email</label
+                          >
+                          <input
+                            type="email"
+                            class="form-control"
+                            id="inputEmail4"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputPassword4" class="form-label"
+                            >Password</label
+                          >
+                          <input
+                            type="password"
+                            class="form-control"
+                            id="inputPassword4"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputAddress" class="form-label"
+                            >Address</label
+                          >
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputAddress"
+                            placeholder="3/5A, Dhanmondi, Dhaka"
+                          />
+                        </div>
+                        <div class="col-md-6">
+                          <label for="inputCity" class="form-label">City</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputCity"
+                          />
+                        </div>
+                        <div class="col-md-4">
+                          <label for="inputState" class="form-label"
+                            >State</label
+                          >
+                          <select id="inputState" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Dhaka</option>
+                            <option>Chattogroam</option>
+                            <option>Rajshahi</option>
+                            <option>Khulna</option>
+                            <option>Barishal</option>
+                            <option>Mymensingh</option>
+                            <option>Rangpur</option>
+                          </select>
+                        </div>
+                        <div class="col-md-2">
+                          <label for="inputZip" class="form-label">Zip</label>
+                          <input
+                            type="text"
+                            class="form-control"
+                            id="inputZip"
+                          />
+                        </div>
+                        <div class="col-12">
+                          <label for="inputCourse" class="form-label"
+                            >Choose Course</label
+                          >
+                          <select id="inputCourse" class="form-select">
+                            <option selected>Choose...</option>
+                            <option>Basics of UI/UX Design</option>
+                            <option>Basic Javascript</option>
+                            <option>Full Stack Web Development</option>
+                            <option>Digital Marketing</option>
+                            <option>Photography for Noobs</option>
+                            <option>Beginners' Motion Graphics</option>
+                          </select>
+                        </div>
+                        <div class="col-12">
+                          <button
+                            type="submit"
+                            class="btn text-white btn-lite-codebd bg-codebd outline-codebd fw-semibold px-4 py-2 mt-5"
+                          >
+                            Sign up
+                          </button>
+                        </div>
+                      </form>
+                    </div>
+                    <div class="modal-footer">
+                      <button
+                        type="button"
+                        class="btn btn-secondary"
+                        data-bs-dismiss="modal"
+                      >
+                        Close
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Call to Action Ends -->
+
+      <!-- FAQ Section Starts -->
+      <section class="faq">
+        <div class="container">
+          <h2 class="w-75 mx-auto text-center fs-1 fw-semibold">
+            Frequently Asked Questions
+          </h2>
+          <p class="text-secondary w-50 mx-auto text-center my-3">
+            It is a long established fact that a reader will be distracted by
+            the readable content of a page when looking at its layout.
+          </p>
+          <div class="row justify-content-center">
+            <div class="col-12 col-lg-7 px-2 px-lg-0">
+              <div class="accordion" id="accordionExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingOne">
+                    <button
+                      class="accordion-button"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseOne"
+                      aria-expanded="true"
+                      aria-controls="collapseOne"
+                    >
+                      What are the difference between flexbox and grid?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseOne"
+                    class="accordion-collapse collapse show"
+                    aria-labelledby="headingOne"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      CSS Grid and Flexbox are layout models that have
+                      similarities and can be used together. The main
+                      dissimilarity is that CSS Grid can be used to create
+                      two-dimensional layouts, while Flexbox can only be used to
+                      create one-dimensional layouts. That means one can place
+                      components along the X- and Y-axis in CSS Grid and only
+                      one axis in Flexbox.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingTwo">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseTwo"
+                      aria-expanded="false"
+                      aria-controls="collapseTwo"
+                    >
+                      What is the difference between Bootstrap and Tailwind css?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseTwo"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingTwo"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      <table class="table table-striped">
+                        <thead>
+                          <tr>
+                            <th scope="col" class="w-50">Bootstrap</th>
+                            <th scope="col" class="w-50">Tailwind CSS</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <td>
+                              Bootstrap contains a set of mobile-friendly
+                              pre-set components within a definite UI kit.
+                            </td>
+                            <td>
+                              Tailwind CSS offers utility classes to build a
+                              website from scratch
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Webiste design is quite similar for different
+                              webistes. However, the design itself is flawless
+                              and responsive.
+                            </td>
+                            <td>
+                              Uses different sets of utility classes to create
+                              dynamic and unique website design.
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>
+                              Bootstrap requires at least two files namely
+                              bootstrap.css and bootstrap.bundle.js
+                            </td>
+                            <td>
+                              Tailwind CSS is quite light requiring only the
+                              base sheet that is 27kb to get started
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingThree">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseThree"
+                      aria-expanded="false"
+                      aria-controls="collapseThree"
+                    >
+                      What is css box model?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseThree"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingThree"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      In CSS, the term Box Model is used when we are talking
+                      about the design and layout of a page. The CSS Box Model
+                      is essentially a box that wraps around every HTML element.
+                      It consists of
+                      <strong>Margins, Borders, Padding,</strong> and the Actual
+                      content of the web page.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="accordion-item">
+                  <h2 class="accordion-header" id="headingFour">
+                    <button
+                      class="accordion-button collapsed"
+                      type="button"
+                      data-bs-toggle="collapse"
+                      data-bs-target="#collapseFour"
+                      aria-expanded="false"
+                      aria-controls="collapseFour"
+                    >
+                      What are semantic tags?
+                    </button>
+                  </h2>
+                  <div
+                    id="collapseFour"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="headingFour"
+                    data-bs-parent="#accordionExample"
+                  >
+                    <div class="accordion-body">
+                      The HTML semantics refers to the tags that provide meaning
+                      to an HTML page rather than just presentation. It makes
+                      HTML more comprehensible by better defining the different
+                      sections and layout of web pages. Some semantic tags are
+                      as follows:
+                      <ul>
+                        <li class="my-1">
+                          &lt;header&gt;: It defines a header for a web page.
+                        </li>
+                        <li class="mb-1">
+                          &lt;nav&gt;: It defines a container for navigation
+                          links.
+                        </li>
+                        <li class="mb-1">
+                          &lt;section&gt;: This defines a section in a web page.
+                        </li>
+                        <li class="mb-1">
+                          &lt;article&gt;: This element contains the main part,
+                          containing information about the web page.
+                        </li>
+                        <li class="mb-1">
+                          &lt;aside&gt;: The &lt;aside&gt; content is often
+                          placed as a sidebar in a document.
+                        </li>
+                        <li>
+                          &lt;footer&gt;: It defines a footer for a document or
+                          a section.
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- FAQ Section Ends -->
     </main>
     <!-- Main Ends  -->
 

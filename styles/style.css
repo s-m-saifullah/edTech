@@ -18,13 +18,19 @@ body {
   border: 0.5px solid var(--primary-color);
 }
 
-.button-codebd {
+.btn-codebd,
+.btn-lite-codebd {
   transition: all 0.5s;
 }
 
-.button-codebd:hover {
+.btn-codebd:hover {
   color: white;
   background-color: var(--primary-color);
+}
+
+.btn-lite-codebd:hover {
+  color: var(--primary-color) !important;
+  background-color: transparent;
 }
 
 .carousel-codebd {
