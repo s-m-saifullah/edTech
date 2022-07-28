@@ -2,6 +2,8 @@ body {
   font-family: "Poppins", sans-serif;
 }
 
+/* Banner Carousel Styles */
+
 .carousel-codebd {
   min-height: 700px;
   background-repeat: no-repeat;
@@ -25,6 +27,17 @@ body {
 .carousel-codebd .carousel-caption {
   transform: translateY(50%);
 }
+
+/* Footer Social Link Styles */
+
+.social-links .link-light {
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+}
+
+/* Responsive Styles */
 
 @media screen and (max-width: 576px) {
   .carousel-codebd {
