@@ -1,41 +1,11 @@
-:root {
-  --primary-color: #461169;
-}
-
 body {
   font-family: "Poppins", sans-serif;
-}
-
-.bg-codebd {
-  background-color: var(--primary-color);
-}
-
-.text-codebd {
-  color: var(--primary-color);
-}
-
-.outline-codebd {
-  border: 0.5px solid var(--primary-color);
-}
-
-.btn-codebd,
-.btn-lite-codebd {
-  transition: all 0.5s;
-}
-
-.btn-codebd:hover {
-  color: white;
-  background-color: var(--primary-color);
-}
-
-.btn-lite-codebd:hover {
-  color: var(--primary-color) !important;
-  background-color: transparent;
 }
 
 .carousel-codebd {
   min-height: 700px;
   background-repeat: no-repeat;
+  background-size: contain;
   background-position: center;
   position: relative;
   z-index: 1;
